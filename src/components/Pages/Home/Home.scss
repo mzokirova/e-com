@@ -1,0 +1,23 @@
+.home{
+    
+main{
+    .main-header{
+        width: 100%;
+        height: 200px;
+        background-color: floralwhite;
+        .main-title{
+            text-align: center;
+        padding-top: 90px;
+        }
+        
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        p{
+            padding:1rem 0;
+        }
+    }
+}
+}

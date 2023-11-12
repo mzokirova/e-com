@@ -1,0 +1,39 @@
+.products{
+    .product-box{
+        padding: 3rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+.product-card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1rem;
+    box-shadow: 5px 5px 8px grey;
+    border-radius: 20px;
+    
+    img{
+        min-height: 150px;
+        aspect-ratio: 0.8;
+    }
+    .flex-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .price{
+            font-size: 1.4rem;
+            color: darkred;
+        }
+        .details{
+            background-color: rgb(24, 24, 46);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    }
+}
+}
+}

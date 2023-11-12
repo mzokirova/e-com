@@ -1,0 +1,25 @@
+.about{
+    width: 100%;
+    background-color: ghostwhite;
+}
+.about-heading{
+    height: 90px;
+    padding: 2rem 0;
+    
+    h1{
+        text-align: center;
+    }
+    
+}
+.about-container{
+    display: flex;
+    
+    gap: 40px;
+    .flex-col{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background-color: white;
+        padding: 1rem;
+    }
+}

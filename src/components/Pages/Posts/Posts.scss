@@ -1,0 +1,31 @@
+
+.posts{
+ width: 100%;
+ .post-title{
+    font-size: 3rem;
+    text-align: center;
+    height: 90px;
+ }
+    .post-box{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+       
+    .post-card{
+        width: 40%;
+        height: 200px;
+        background-color: antiquewhite;
+        padding:10px;
+
+        
+        
+        .post-card-title{
+            font-size: 1.5rem;
+        }
+    
+}
+}
+}

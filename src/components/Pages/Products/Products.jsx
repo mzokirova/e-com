@@ -17,7 +17,7 @@ const Products = (props) => {
                            <h3>{product.title}</h3>
                            <div className="flex-row">
                                <h4 className='price'>${product.price}</h4>
-                               <Link className='details' to={`./products/${product.id}`}> Details...</Link>
+                               <Link className='details' to={`/products/${product.id}`}> Details...</Link>
                            </div>
                        </div>
                    )

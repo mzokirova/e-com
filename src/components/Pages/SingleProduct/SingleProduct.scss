@@ -1,15 +1,18 @@
 .single{
     text-align: center;
+    padding: 1rem 0;
+    height: 800px;
     .single-heading{
         width: 100%;
         padding: 2rem 0;
     }
     .single-card{
-        width: 60%;
+        width: 30%;
         margin: 0 auto;
-        height: 700px;
+        height: 500px;
         img{
             width: 30%;
+           
         }
         .price{
             color: rgb(30, 30, 141);
